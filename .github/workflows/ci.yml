@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-#  schedule:
-#    - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   autogreen:
@@ -15,8 +15,8 @@ jobs:
       contents: write
   
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v3
+      - name: mm2543363580
+        uses: 409381723@qq.com
 
       - name: Auto green
         run: |
